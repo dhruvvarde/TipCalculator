@@ -31,10 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
-
-Describe any challenges encountered while building the app.
-
+Color Picker [HRColorPickerView](https://github.com/hayashi311/Color-Picker-for-iOS).
 ## License
 
     Copyright [2016] [Dhruv Varde]
