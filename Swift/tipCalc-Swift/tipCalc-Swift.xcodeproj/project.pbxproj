@@ -13,38 +13,19 @@
 		DB16C45E1D93D8F60021BE0B /* tipCalc_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB16C45C1D93D8F60021BE0B /* tipCalc_Swift.xcdatamodeld */; };
 		DB16C4601D93D8F60021BE0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB16C45F1D93D8F60021BE0B /* Assets.xcassets */; };
 		DB16C4631D93D8F60021BE0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB16C4611D93D8F60021BE0B /* LaunchScreen.storyboard */; };
-		DB16C46E1D93D8F60021BE0B /* tipCalc_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16C46D1D93D8F60021BE0B /* tipCalc_SwiftTests.swift */; };
-		DB16C4791D93D8F60021BE0B /* tipCalc_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16C4781D93D8F60021BE0B /* tipCalc_SwiftUITests.swift */; };
-		DB16C4971D93D9220021BE0B /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB16C4871D93D9220021BE0B /* HRBrightnessCursor.m */; };
-		DB16C4981D93D9220021BE0B /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = DB16C4891D93D9220021BE0B /* HRBrightnessSlider.m */; };
-		DB16C4991D93D9220021BE0B /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB16C48B1D93D9220021BE0B /* HRColorCursor.m */; };
-		DB16C49A1D93D9220021BE0B /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB16C48D1D93D9220021BE0B /* HRColorInfoView.m */; };
-		DB16C49B1D93D9220021BE0B /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB16C48F1D93D9220021BE0B /* HRColorMapView.m */; };
-		DB16C49C1D93D9220021BE0B /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB16C4911D93D9220021BE0B /* HRColorPickerView.m */; };
-		DB16C49D1D93D9220021BE0B /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DB16C4931D93D9220021BE0B /* HRHSVColorUtil.m */; };
-		DB16C49E1D93D9220021BE0B /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = DB16C4951D93D9220021BE0B /* UIImage+CoreGraphics.m */; };
-		DB16C4A31D93E47C0021BE0B /* HRSampleColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB16C4A21D93E47C0021BE0B /* HRSampleColorPickerViewController.m */; };
 		DB16C4A51D93E66A0021BE0B /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = DB16C4A41D93E66A0021BE0B /* settings.png */; };
 		DB16C4A71D93E7F40021BE0B /* changeColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16C4A61D93E7F40021BE0B /* changeColorViewController.swift */; };
 		DB16C4A91D93F48F0021BE0B /* _Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = DB16C4A81D93F48F0021BE0B /* _Settings.png */; };
+		DB9C5B051D94EFA00061735D /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C5AF21D94EFA00061735D /* HRBrightnessCursor.m */; };
+		DB9C5B061D94EFA00061735D /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C5AF41D94EFA00061735D /* HRBrightnessSlider.m */; };
+		DB9C5B071D94EFA00061735D /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C5AF61D94EFA00061735D /* HRColorCursor.m */; };
+		DB9C5B081D94EFA00061735D /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C5AF81D94EFA00061735D /* HRColorInfoView.m */; };
+		DB9C5B091D94EFA00061735D /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C5AFA1D94EFA00061735D /* HRColorMapView.m */; };
+		DB9C5B0A1D94EFA00061735D /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C5AFC1D94EFA00061735D /* HRColorPickerView.m */; };
+		DB9C5B0B1D94EFA00061735D /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C5AFE1D94EFA00061735D /* HRHSVColorUtil.m */; };
+		DB9C5B0C1D94EFA00061735D /* HRSampleColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C5B001D94EFA00061735D /* HRSampleColorPickerViewController.m */; };
+		DB9C5B0D1D94EFA00061735D /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C5B021D94EFA00061735D /* UIImage+CoreGraphics.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DB16C46A1D93D8F60021BE0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB16C44A1D93D8F60021BE0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB16C4511D93D8F60021BE0B;
-			remoteInfo = "tipCalc-Swift";
-		};
-		DB16C4751D93D8F60021BE0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB16C44A1D93D8F60021BE0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB16C4511D93D8F60021BE0B;
-			remoteInfo = "tipCalc-Swift";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DB16C4521D93D8F60021BE0B /* tipCalc-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tipCalc-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,53 +36,37 @@
 		DB16C45F1D93D8F60021BE0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB16C4621D93D8F60021BE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB16C4641D93D8F60021BE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB16C4691D93D8F60021BE0B /* tipCalc-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tipCalc-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB16C46D1D93D8F60021BE0B /* tipCalc_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipCalc_SwiftTests.swift; sourceTree = "<group>"; };
 		DB16C46F1D93D8F60021BE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB16C4741D93D8F60021BE0B /* tipCalc-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tipCalc-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB16C4781D93D8F60021BE0B /* tipCalc_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipCalc_SwiftUITests.swift; sourceTree = "<group>"; };
 		DB16C47A1D93D8F60021BE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB16C4861D93D9220021BE0B /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
-		DB16C4871D93D9220021BE0B /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
-		DB16C4881D93D9220021BE0B /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
-		DB16C4891D93D9220021BE0B /* HRBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessSlider.m; sourceTree = "<group>"; };
-		DB16C48A1D93D9220021BE0B /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
-		DB16C48B1D93D9220021BE0B /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
-		DB16C48C1D93D9220021BE0B /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
-		DB16C48D1D93D9220021BE0B /* HRColorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorInfoView.m; sourceTree = "<group>"; };
-		DB16C48E1D93D9220021BE0B /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
-		DB16C48F1D93D9220021BE0B /* HRColorMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorMapView.m; sourceTree = "<group>"; };
-		DB16C4901D93D9220021BE0B /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
-		DB16C4911D93D9220021BE0B /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
-		DB16C4921D93D9220021BE0B /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
-		DB16C4931D93D9220021BE0B /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
-		DB16C4941D93D9220021BE0B /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
-		DB16C4951D93D9220021BE0B /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
 		DB16C49F1D93D9900021BE0B /* tipCalc-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tipCalc-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		DB16C4A01D93DA0E0021BE0B /* tipCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tipCalc-Prefix.pch"; sourceTree = "<group>"; };
-		DB16C4A11D93E47C0021BE0B /* HRSampleColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRSampleColorPickerViewController.h; path = ../../tipCalc/tipCalc/ColorPicker/HRSampleColorPickerViewController.h; sourceTree = "<group>"; };
-		DB16C4A21D93E47C0021BE0B /* HRSampleColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRSampleColorPickerViewController.m; path = ../../tipCalc/tipCalc/ColorPicker/HRSampleColorPickerViewController.m; sourceTree = "<group>"; };
 		DB16C4A41D93E66A0021BE0B /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		DB16C4A61D93E7F40021BE0B /* changeColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changeColorViewController.swift; sourceTree = "<group>"; };
 		DB16C4A81D93F48F0021BE0B /* _Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _Settings.png; sourceTree = "<group>"; };
+		DB9C5AF11D94EFA00061735D /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		DB9C5AF21D94EFA00061735D /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		DB9C5AF31D94EFA00061735D /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
+		DB9C5AF41D94EFA00061735D /* HRBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessSlider.m; sourceTree = "<group>"; };
+		DB9C5AF51D94EFA00061735D /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		DB9C5AF61D94EFA00061735D /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		DB9C5AF71D94EFA00061735D /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
+		DB9C5AF81D94EFA00061735D /* HRColorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorInfoView.m; sourceTree = "<group>"; };
+		DB9C5AF91D94EFA00061735D /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
+		DB9C5AFA1D94EFA00061735D /* HRColorMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorMapView.m; sourceTree = "<group>"; };
+		DB9C5AFB1D94EFA00061735D /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		DB9C5AFC1D94EFA00061735D /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		DB9C5AFD1D94EFA00061735D /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
+		DB9C5AFE1D94EFA00061735D /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
+		DB9C5AFF1D94EFA00061735D /* HRSampleColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRSampleColorPickerViewController.h; sourceTree = "<group>"; };
+		DB9C5B001D94EFA00061735D /* HRSampleColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRSampleColorPickerViewController.m; sourceTree = "<group>"; };
+		DB9C5B011D94EFA00061735D /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
+		DB9C5B021D94EFA00061735D /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DB16C44F1D93D8F60021BE0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB16C4661D93D8F60021BE0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB16C4711D93D8F60021BE0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				DB16C4521D93D8F60021BE0B /* tipCalc-Swift.app */,
-				DB16C4691D93D8F60021BE0B /* tipCalc-SwiftTests.xctest */,
-				DB16C4741D93D8F60021BE0B /* tipCalc-SwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,16 +101,14 @@
 				DB16C4A41D93E66A0021BE0B /* settings.png */,
 				DB16C4A01D93DA0E0021BE0B /* tipCalc-Prefix.pch */,
 				DB16C49F1D93D9900021BE0B /* tipCalc-Swift-Bridging-Header.h */,
-				DB16C4961D93D9220021BE0B /* ColorPicker */,
 				DB16C4551D93D8F60021BE0B /* AppDelegate.swift */,
 				DB16C4571D93D8F60021BE0B /* ViewController.swift */,
 				DB16C4591D93D8F60021BE0B /* Main.storyboard */,
 				DB16C45F1D93D8F60021BE0B /* Assets.xcassets */,
+				DB9C5AF01D94EFA00061735D /* ColorPicker */,
 				DB16C4611D93D8F60021BE0B /* LaunchScreen.storyboard */,
 				DB16C4641D93D8F60021BE0B /* Info.plist */,
 				DB16C45C1D93D8F60021BE0B /* tipCalc_Swift.xcdatamodeld */,
-				DB16C4A11D93E47C0021BE0B /* HRSampleColorPickerViewController.h */,
-				DB16C4A21D93E47C0021BE0B /* HRSampleColorPickerViewController.m */,
 				DB16C4A61D93E7F40021BE0B /* changeColorViewController.swift */,
 			);
 			path = "tipCalc-Swift";
@@ -171,28 +132,29 @@
 			path = "tipCalc-SwiftUITests";
 			sourceTree = "<group>";
 		};
-		DB16C4961D93D9220021BE0B /* ColorPicker */ = {
+		DB9C5AF01D94EFA00061735D /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				DB16C4861D93D9220021BE0B /* HRBrightnessCursor.h */,
-				DB16C4871D93D9220021BE0B /* HRBrightnessCursor.m */,
-				DB16C4881D93D9220021BE0B /* HRBrightnessSlider.h */,
-				DB16C4891D93D9220021BE0B /* HRBrightnessSlider.m */,
-				DB16C48A1D93D9220021BE0B /* HRColorCursor.h */,
-				DB16C48B1D93D9220021BE0B /* HRColorCursor.m */,
-				DB16C48C1D93D9220021BE0B /* HRColorInfoView.h */,
-				DB16C48D1D93D9220021BE0B /* HRColorInfoView.m */,
-				DB16C48E1D93D9220021BE0B /* HRColorMapView.h */,
-				DB16C48F1D93D9220021BE0B /* HRColorMapView.m */,
-				DB16C4901D93D9220021BE0B /* HRColorPickerView.h */,
-				DB16C4911D93D9220021BE0B /* HRColorPickerView.m */,
-				DB16C4921D93D9220021BE0B /* HRHSVColorUtil.h */,
-				DB16C4931D93D9220021BE0B /* HRHSVColorUtil.m */,
-				DB16C4941D93D9220021BE0B /* UIImage+CoreGraphics.h */,
-				DB16C4951D93D9220021BE0B /* UIImage+CoreGraphics.m */,
+				DB9C5AF11D94EFA00061735D /* HRBrightnessCursor.h */,
+				DB9C5AF21D94EFA00061735D /* HRBrightnessCursor.m */,
+				DB9C5AF31D94EFA00061735D /* HRBrightnessSlider.h */,
+				DB9C5AF41D94EFA00061735D /* HRBrightnessSlider.m */,
+				DB9C5AF51D94EFA00061735D /* HRColorCursor.h */,
+				DB9C5AF61D94EFA00061735D /* HRColorCursor.m */,
+				DB9C5AF71D94EFA00061735D /* HRColorInfoView.h */,
+				DB9C5AF81D94EFA00061735D /* HRColorInfoView.m */,
+				DB9C5AF91D94EFA00061735D /* HRColorMapView.h */,
+				DB9C5AFA1D94EFA00061735D /* HRColorMapView.m */,
+				DB9C5AFB1D94EFA00061735D /* HRColorPickerView.h */,
+				DB9C5AFC1D94EFA00061735D /* HRColorPickerView.m */,
+				DB9C5AFD1D94EFA00061735D /* HRHSVColorUtil.h */,
+				DB9C5AFE1D94EFA00061735D /* HRHSVColorUtil.m */,
+				DB9C5AFF1D94EFA00061735D /* HRSampleColorPickerViewController.h */,
+				DB9C5B001D94EFA00061735D /* HRSampleColorPickerViewController.m */,
+				DB9C5B011D94EFA00061735D /* UIImage+CoreGraphics.h */,
+				DB9C5B021D94EFA00061735D /* UIImage+CoreGraphics.m */,
 			);
-			name = ColorPicker;
-			path = ../../tipCalc/tipCalc/ColorPicker;
+			path = ColorPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,42 +177,6 @@
 			productReference = DB16C4521D93D8F60021BE0B /* tipCalc-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DB16C4681D93D8F60021BE0B /* tipCalc-SwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB16C4801D93D8F60021BE0B /* Build configuration list for PBXNativeTarget "tipCalc-SwiftTests" */;
-			buildPhases = (
-				DB16C4651D93D8F60021BE0B /* Sources */,
-				DB16C4661D93D8F60021BE0B /* Frameworks */,
-				DB16C4671D93D8F60021BE0B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DB16C46B1D93D8F60021BE0B /* PBXTargetDependency */,
-			);
-			name = "tipCalc-SwiftTests";
-			productName = "tipCalc-SwiftTests";
-			productReference = DB16C4691D93D8F60021BE0B /* tipCalc-SwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DB16C4731D93D8F60021BE0B /* tipCalc-SwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB16C4831D93D8F60021BE0B /* Build configuration list for PBXNativeTarget "tipCalc-SwiftUITests" */;
-			buildPhases = (
-				DB16C4701D93D8F60021BE0B /* Sources */,
-				DB16C4711D93D8F60021BE0B /* Frameworks */,
-				DB16C4721D93D8F60021BE0B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DB16C4761D93D8F60021BE0B /* PBXTargetDependency */,
-			);
-			name = "tipCalc-SwiftUITests";
-			productName = "tipCalc-SwiftUITests";
-			productReference = DB16C4741D93D8F60021BE0B /* tipCalc-SwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -263,14 +189,7 @@
 				TargetAttributes = {
 					DB16C4511D93D8F60021BE0B = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					DB16C4681D93D8F60021BE0B = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = DB16C4511D93D8F60021BE0B;
-					};
-					DB16C4731D93D8F60021BE0B = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = DB16C4511D93D8F60021BE0B;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -288,8 +207,6 @@
 			projectRoot = "";
 			targets = (
 				DB16C4511D93D8F60021BE0B /* tipCalc-Swift */,
-				DB16C4681D93D8F60021BE0B /* tipCalc-SwiftTests */,
-				DB16C4731D93D8F60021BE0B /* tipCalc-SwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,20 +224,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB16C4671D93D8F60021BE0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB16C4721D93D8F60021BE0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -328,52 +231,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB16C49A1D93D9220021BE0B /* HRColorInfoView.m in Sources */,
-				DB16C49D1D93D9220021BE0B /* HRHSVColorUtil.m in Sources */,
-				DB16C4A31D93E47C0021BE0B /* HRSampleColorPickerViewController.m in Sources */,
-				DB16C4981D93D9220021BE0B /* HRBrightnessSlider.m in Sources */,
-				DB16C4971D93D9220021BE0B /* HRBrightnessCursor.m in Sources */,
+				DB9C5B051D94EFA00061735D /* HRBrightnessCursor.m in Sources */,
 				DB16C4A71D93E7F40021BE0B /* changeColorViewController.swift in Sources */,
+				DB9C5B0C1D94EFA00061735D /* HRSampleColorPickerViewController.m in Sources */,
+				DB9C5B0A1D94EFA00061735D /* HRColorPickerView.m in Sources */,
+				DB9C5B0B1D94EFA00061735D /* HRHSVColorUtil.m in Sources */,
 				DB16C45E1D93D8F60021BE0B /* tipCalc_Swift.xcdatamodeld in Sources */,
+				DB9C5B0D1D94EFA00061735D /* UIImage+CoreGraphics.m in Sources */,
+				DB9C5B091D94EFA00061735D /* HRColorMapView.m in Sources */,
 				DB16C4581D93D8F60021BE0B /* ViewController.swift in Sources */,
-				DB16C49B1D93D9220021BE0B /* HRColorMapView.m in Sources */,
+				DB9C5B081D94EFA00061735D /* HRColorInfoView.m in Sources */,
 				DB16C4561D93D8F60021BE0B /* AppDelegate.swift in Sources */,
-				DB16C49C1D93D9220021BE0B /* HRColorPickerView.m in Sources */,
-				DB16C4991D93D9220021BE0B /* HRColorCursor.m in Sources */,
-				DB16C49E1D93D9220021BE0B /* UIImage+CoreGraphics.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB16C4651D93D8F60021BE0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB16C46E1D93D8F60021BE0B /* tipCalc_SwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB16C4701D93D8F60021BE0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB16C4791D93D8F60021BE0B /* tipCalc_SwiftUITests.swift in Sources */,
+				DB9C5B071D94EFA00061735D /* HRColorCursor.m in Sources */,
+				DB9C5B061D94EFA00061735D /* HRBrightnessSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DB16C46B1D93D8F60021BE0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DB16C4511D93D8F60021BE0B /* tipCalc-Swift */;
-			targetProxy = DB16C46A1D93D8F60021BE0B /* PBXContainerItemProxy */;
-		};
-		DB16C4761D93D8F60021BE0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DB16C4511D93D8F60021BE0B /* tipCalc-Swift */;
-			targetProxy = DB16C4751D93D8F60021BE0B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DB16C4591D93D8F60021BE0B /* Main.storyboard */ = {
@@ -487,10 +361,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tipCalc-Swift/tipCalc-Prefix.pch";
 				INFOPLIST_FILE = "tipCalc-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.estatic.tipCalc-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "tipCalc-Swift/tipCalc-Swift-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -501,56 +377,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tipCalc-Swift/tipCalc-Prefix.pch";
 				INFOPLIST_FILE = "tipCalc-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.estatic.tipCalc-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "tipCalc-Swift/tipCalc-Swift-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		DB16C4811D93D8F60021BE0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "tipCalc-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ios.estatic.tipCalc-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipCalc-Swift.app/tipCalc-Swift";
-			};
-			name = Debug;
-		};
-		DB16C4821D93D8F60021BE0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "tipCalc-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ios.estatic.tipCalc-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipCalc-Swift.app/tipCalc-Swift";
-			};
-			name = Release;
-		};
-		DB16C4841D93D8F60021BE0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "tipCalc-SwiftUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ios.estatic.tipCalc-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "tipCalc-Swift";
-			};
-			name = Debug;
-		};
-		DB16C4851D93D8F60021BE0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "tipCalc-SwiftUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ios.estatic.tipCalc-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "tipCalc-Swift";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -573,22 +405,7 @@
 				DB16C47F1D93D8F60021BE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		DB16C4801D93D8F60021BE0B /* Build configuration list for PBXNativeTarget "tipCalc-SwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB16C4811D93D8F60021BE0B /* Debug */,
-				DB16C4821D93D8F60021BE0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DB16C4831D93D8F60021BE0B /* Build configuration list for PBXNativeTarget "tipCalc-SwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB16C4841D93D8F60021BE0B /* Debug */,
-				DB16C4851D93D8F60021BE0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
